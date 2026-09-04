@@ -1,0 +1,6 @@
+{
+  "name": "demo-repo",
+  "private": true,
+  "type": "module",
+  "description": "Tiny TypeScript sample the Lab 1 agent is allowed to read."
+}

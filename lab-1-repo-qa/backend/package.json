@@ -1,0 +1,26 @@
+{
+  "name": "@agents/lab-1-repo-qa",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@langchain/langgraph": "^1.0.4",
+    "@langchain/openai": "^1.2.0",
+    "langchain": "^1.2.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "tsx": "^4.23.13",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
